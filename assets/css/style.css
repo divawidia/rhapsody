@@ -6254,9 +6254,11 @@ blockquote.vs-quote cite {
     margin: 0;
     width: auto;
   }
+
   .picture-box2 [class*="picture-"] img {
     width: 100%;
   }
+
   .picture-box2 .picture-3 {
     max-width: 98%;
     grid-auto-flow: row dense;
