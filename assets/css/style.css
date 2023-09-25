@@ -2722,7 +2722,7 @@ a.text-theme:hover,
   bottom: -1px;
   width: 50px;
   height: 2px;
-  background-color: var(--theme-color);
+  background-color: var(--white-color);
 }
 .widget_title:after {
   left: 55px;
@@ -6254,7 +6254,6 @@ blockquote.vs-quote cite {
     margin: 0;
     width: auto;
   }
-
   .picture-box2 [class*="picture-"] img {
     width: 100%;
   }
