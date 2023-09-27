@@ -5404,6 +5404,7 @@ blockquote.vs-quote cite {
   border-radius: 20px;
 }
 .picture-box2 .picture-1 {
+  max-width: 320px;
   margin-left: 50%;
   margin-bottom: -120px;
   z-index: 3;
@@ -5423,6 +5424,67 @@ blockquote.vs-quote cite {
   --circle-bg: var(--theme-color2);
   --circle-size: 554px;
   z-index: 1;
+}
+
+/* .picture-box7 {
+  position: relative;
+}
+.picture-box7 [class*="picture-"] {
+  max-width: 320px;
+  width: -moz-max-content;
+  width: max-content;
+  overflow: hidden;
+  position: relative;
+  z-index: 2;
+  border-radius: 20px;
+}
+.picture-box7 .picture-1 {
+  max-width: 320px;
+  margin-left: 50%;
+  margin-bottom: -120px;
+  z-index: 3;
+}
+.picture-box7 .picture-3 {
+  margin-right: -170px;
+  margin-left: auto;
+  margin-top: -140px;
+}
+.picture-box7 .vs-circle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  max-width: initial;
+  transform: translate(-42%, -50%);
+  --circle-angle: -43deg;
+  --circle-bg: var(--theme-color2);
+  --circle-size: 554px;
+  z-index: 1;
+} */
+
+.picture-box7 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 10px;
+}
+.picture-box7 [class*="picture-"] {
+  margin: 0;
+  width: auto;
+  border-radius: 20px;
+}
+
+.picture-box7 .picture-3 {
+  max-width: 840px;
+  grid-auto-flow: row dense;
+  grid-column: 1/4;
+}
+.picture-box7 .vs-circle {
+  display: none;
+}
+
+@media (max-width: 1399px) {
+  .picture-box7 .picture-3 {
+    max-width: 99%;
+  }
 }
 
 .picture-box3 {
@@ -5593,6 +5655,18 @@ blockquote.vs-quote cite {
   /* padding-left: 165px; */
 }
 
+.about-box3 {
+  padding: 0;
+}
+.about-box3 .about-content {
+  margin-top: -40px;
+}
+
+@media (max-width: 991px) {
+  .about-box3 {
+    margin-top: 40px;
+  }
+}
 .media-style1 {
   display: flex;
   align-items: center;
