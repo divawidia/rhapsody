@@ -838,7 +838,7 @@ textarea.is-invalid {
 }
 .vs-menu-wrapper .mobile-logo img,
 .vs-menu-wrapper .mobile-logo svg {
-  width: 100px;
+  width: 250px;
 }
 .vs-menu-wrapper .vs-menu-toggle {
   border: none;
@@ -3408,13 +3408,13 @@ a.text-theme:hover,
   position: relative;
   font-family: var(--body-font);
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
   color: var(--title-color);
   /* Extra large devices */
 }
 @media (max-width: 1500px) {
   .main-menu a {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 .main-menu a:hover {
