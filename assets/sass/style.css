@@ -1030,6 +1030,8 @@ textarea.is-invalid {
 .preloader-inner img {
   display: block;
   margin: 0 auto 25px auto;
+  
+  max-width: 200px;
 }
 
 .loader {
