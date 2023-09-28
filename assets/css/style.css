@@ -1035,7 +1035,6 @@ textarea.is-invalid {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
 }
 .preloader-inner img {
   display: block;
@@ -1105,8 +1104,7 @@ textarea.is-invalid {
   line-height: 1.2;
   padding: 21.5px 40px;
   border-radius: 9999px;
-  position: absolute;
-  text-align: center;
+  position: relative;
   z-index: 1;
   overflow: hidden;
 }
