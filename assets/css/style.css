@@ -1105,7 +1105,8 @@ textarea.is-invalid {
   line-height: 1.2;
   padding: 21.5px 40px;
   border-radius: 9999px;
-  position: relative;
+  position: absolute;
+  text-align: center;
   z-index: 1;
   overflow: hidden;
 }
