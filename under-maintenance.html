@@ -55,6 +55,8 @@
     <link rel="stylesheet" href="assets/css/slick.min.css" />
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -73,12 +75,13 @@
     <!--==============================
      Preloader
   ==============================-->
-    <!-- <div class="preloader">
-      <button class="vs-btn preloaderCls">Cancel Preloader</button>
+    <div class="preloader">
+      <button class="vs-btn preloaderCls">CANCEL PRELOADER</button>
       <div class="preloader-inner">
+        <img class="w-50" src="assets/img/logo-2.png" alt="Rhapsody" />
         <div class="loader"></div>
       </div>
-    </div> -->
+    </div>
     <!--==============================
     Mobile Menu
   ============================== -->
@@ -221,8 +224,21 @@
     >
       <div class="container z-index-common">
         <div class="breadcumb-content">
-          <h1 class="breadcumb-title">UNDER MAINTENANCE!</h1>
-          <p class="breadcumb-text">Sorry, this page is under maintenance</p>
+          <h1
+            class="breadcumb-title"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            UNDER MAINTENANCE!
+          </h1>
+          <p
+            class="breadcumb-text"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            Sorry, this page is under maintenance
+          </p>
           <div class="breadcumb-menu-wrap">
             <ul class="breadcumb-menu">
               <li><a href="index.html">Home</a></li>
@@ -239,7 +255,7 @@
       <div class="container">
         <div class="row flex-row-reverse text-center text-xl-start">
           <div class="col-xl-6 col-xxl-7 text-xl-end">
-            <div class="error-img">
+            <div class="error-img" data-aos="fade-up" data-aos-duration="1000">
               <img
                 src="assets/img/shape/Computer troubleshooting-amico.svg"
                 alt="error image"
@@ -248,13 +264,36 @@
           </div>
           <div class="col-xl-6 col-xxl-5 align-self-center">
             <div class="error-content">
-              <h1 class="error-title">oooops!</h1>
-              <h2 class="error-title2">THIS PAGE IS UNDER MAINTENANCE</h2>
-              <p class="error-text">
+              <h1
+                class="error-title"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                oooops!
+              </h1>
+              <h2
+                class="error-title2"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="100"
+              >
+                THIS PAGE IS UNDER MAINTENANCE
+              </h2>
+              <p
+                class="error-text"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="200"
+              >
                 Halaman yang kamu ingin akses sedang dalam masa perbaikan, mohon
                 maaf yaaa :(
               </p>
-              <a href="index.html" class="vs-btn"
+              <a
+                href="index.html"
+                class="vs-btn"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+                data-aos-delay="300"
                 ><i class="fas fa-home me-2 pe-1"></i>BACK TO HOME</a
               >
             </div>
@@ -317,8 +356,8 @@
                       class="campus-address media-title"
                       href="https://maps.app.goo.gl/eZ6q5gBjjTKwKubC7"
                     >
-                      <i class="far fa-map-marker"></i>Jalan Selat No. 18 B,
-                      Apuan, Singapadu, Gianyar, Bali - Indonesia
+                      <i class="fa-solid fa-location-dot"></i>Jalan Selat No. 18
+                      B, Apuan, Singapadu, Gianyar, Bali - Indonesia
                     </a>
                   </div>
                 </div>
@@ -349,7 +388,7 @@
                   <a
                     href="https://wa.me/6287761451536"
                     class="contact-number h5 fs-6"
-                    ><i class="far fa-phone-alt"></i> +62877-6136-0697</a
+                    ><i class="fa-brands fa-whatsapp"></i> +62877-6136-0697</a
                   >
                 </div>
               </div>
@@ -369,9 +408,16 @@
             </div>
             <div class="col-auto d-none d-lg-block">
               <div class="social-style1">
-                <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
-                <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
-                <a href="#"><i class="fab fa-linkedin-in"></i>Linked In</a>
+                <a href="https://www.facebook.com/rhapsody.developmentcenter"
+                  ><i class="fa-brands fa-tiktok"></i>Tiktok</a
+                >
+                <a href="https://www.facebook.com/rhapsody.developmentcenter"
+                  ><i class="fab fa-facebook-f"></i>Facebook</a
+                >
+                <a href="https://www.instagram.com/rhapsodydevelopmentcenter/"
+                  ><i class="fab fa-instagram"></i>Instagram</a
+                >
+                <a href="#"><i class="fab fa-linkedin-in"></i>LinkedIn</a>
               </div>
             </div>
           </div>
@@ -380,7 +426,7 @@
     </footer>
     <!-- Scroll To Top -->
     <a href="#" class="scrollToTop scroll-btn"
-      ><i class="far fa-arrow-up"></i
+      ><i class="fa-solid fa-angle-up"></i
     ></a>
 
     <!--********************************
@@ -403,5 +449,15 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/bec8d97be0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

@@ -1866,7 +1866,7 @@ textarea.is-invalid {
 .social-style1 a {
   color: var(--white-color);
   display: inline-block;
-  margin-right: 30px;
+  margin-right: 15px;
   transition: all ease 0.4s;
 }
 .social-style1 a:last-child {
@@ -6573,7 +6573,7 @@ blockquote.vs-quote cite {
   .media-style9 {
     padding: 40px 20px 17px 20px;
   }
-  .media-style9 . {
+  .media-style9 {
     margin-bottom: 25px;
   }
   .media-style9 .media-title {
